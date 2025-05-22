@@ -1,4 +1,4 @@
-# JSONify Pro
+![image](https://github.com/user-attachments/assets/a840bcb5-d07c-46e4-bf65-e7b22cb6e4ac)# JSONify Pro
 
 **JSONify Pro** is a sleek, developer-friendly tool designed to simplify the way you interact with JSON data. Whether you're viewing, formatting, or comparing JSON structures, JSONify Pro offers an intuitive interface to make your tasks effortless.
 
@@ -49,7 +49,10 @@ npm start
 
 ## 🖼️ Preview
 
-![App Preview](link-to-screenshot-if-any)
+![image](https://github.com/user-attachments/assets/ca33610a-166a-4c64-bf4b-e13f0f85aa7c)
+![image](https://github.com/user-attachments/assets/a8e22b05-adc7-4119-a38c-4ce1ea6b03cf)
+
+
 
 ---
 
