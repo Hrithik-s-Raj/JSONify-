@@ -68,4 +68,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📫 Contact
 
-For questions or feedback, reach out at [your-email@example.com].
+For questions or feedback, reach out at rhrithik1dev@gmail.com.
