@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, setActivePage }) 
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
       <header className="bg-white dark:bg-gray-800 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -60,6 +60,22 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, setActivePage }) 
                   <span>History</span>
                 </div>
               </button>
+
+              {/* Buy Me a Coffee Button */}
+              <a
+                href="https://www.buymeacoffee.com/rhrithik1m"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2"
+              >
+                <img
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                  alt="Buy Me A Coffee"
+                  className="h-8"
+                />
+              </a>
+
+              {/* Theme Toggle */}
               <button
                 onClick={toggleTheme}
                 className="ml-2 p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
@@ -75,7 +91,8 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, setActivePage }) 
           </div>
         </div>
       </header>
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {children}
       </main>
     </div>
