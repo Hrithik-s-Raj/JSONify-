@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/a840bcb5-d07c-46e4-bf65-e7b22cb6e4ac)# JSONify Pro
 
 **JSONify Pro** is a sleek, developer-friendly tool designed to simplify the way you interact with JSON data. Whether you're viewing, formatting, or comparing JSON structures, JSONify Pro offers an intuitive interface to make your tasks effortless.
 
