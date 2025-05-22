@@ -10,7 +10,6 @@
 - 🔍 **JSON Comparator**: Compare two JSON objects side-by-side to identify differences.
 - 🕒 **History Tracking**: Keep a record of your previous JSON comparisons or views.
 - 🌗 **Dark/Light Theme Toggle**: Choose the visual mode that suits your environment.
-- ⚡ **Vercel Analytics Integrated**: Monitor performance and usage seamlessly.
 - 🔧 **Built with React + Tailwind**: Modern UI and responsive design.
 
 ---
