@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
-import { Moon, Sun, FileJson, GitCompare, History } from 'lucide-react';
+import { Moon, Sun, FileJson, GitCompare, History, FileText, Code } from 'lucide-react';
 
 interface LayoutProps {
   children: ReactNode;
