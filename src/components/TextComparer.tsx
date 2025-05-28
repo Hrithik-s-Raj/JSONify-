@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { diffLines, Change } from 'diff';
+import * as diff from 'diff';
 
 interface TextComparerProps {
   leftText: string;
@@ -7,14 +7,14 @@ interface TextComparerProps {
 }
 
 const TextComparer: React.FC<TextComparerProps> = ({ leftText, rightText }) => {
-  const [differences, setDifferences] = useState<Change[]>([]);
+  const [differences, setDifferences] = useState<diff.Change[]>([]);
 
   useEffect(() => {
-    const diff = diffLines(leftText, rightText);
-    setDifferences(diff);
+    const differences = diff.diffLines(leftText, rightText);
+    setDifferences(differences);
   }, [leftText, rightText]);
 
-  const getLineClass = (part: Change) => {
+  const getLineClass = (part: diff.Change) => {
     if (part.added) return 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200';
     if (part.removed) return 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200';
     return 'text-gray-800 dark:text-gray-200';
